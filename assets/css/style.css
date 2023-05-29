@@ -1,0 +1,103 @@
+#header{
+    height: 50px;
+    width: 100%;
+    padding:2%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.container {
+    position: absolute;
+    width: 100%;
+}
+
+#fetch-button:hover{
+    background-color: rgb(16, 16, 37);
+}
+#search-input {
+    width: 100%;
+}
+#fetch-button {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    border-radius: 5pt;
+    padding:5px;
+    margin-top: 5px;
+}
+
+
+.search-container{
+    width: 20%;
+    float:left;
+    position: relative;
+    margin-left: 20px;
+}
+.main-section {
+    position: relative;
+    right: 5%;
+    float: right;    
+    width: 70%;
+    display: grid;
+    
+}
+.showMainSection{
+    display: block !important;
+}
+.hideMainSection{
+    display: none !important;
+}
+.sub-section1{   
+    float: right;    
+    width: 100%;
+    border: 1px solid black;
+}
+
+  #current-condition {
+    width: 100%;
+    padding-left: 5px
+  }
+
+.weather-card {
+    width: 19%;
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    margin: 3px;
+}
+#future-conditions {
+    width: 100%;
+}
+
+.sub-section2{
+    margin-top: 20px;
+    width:100%;
+    color:black;
+}
+
+.searchedCities{
+    display: block;
+    list-style: none;
+    border: 1px solid black; 
+    padding: 5px; 
+    border-radius: 5pt;
+    text-align: center;
+    width: 100%;
+    background-color: lightslategray;
+    margin-top: 8px;
+  }
+
+  ul {
+    width: 100%;
+    padding-left: 0%;
+  }
+
+
+
+
