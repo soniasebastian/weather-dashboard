@@ -3,7 +3,7 @@
     width: 100%;
     padding:2%;
     text-align: center;
-    background-color: blue;
+    background-color: lightslategray;
     color: white;
     
 }
@@ -11,25 +11,41 @@
 body{
     font-family:'Times New Roman', Times, serif;
 }
+
+h2{
+    color:white;
+}
+
 .container {
     position: absolute;
     width: 100%;
+    background-color:grey;
 }
 
+aside{
+    margin-left: 20px;
+}
+
+
 #fetch-button:hover{
-    background-color: rgb(16, 16, 37);
+    background-color: whitesmoke;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
 }
 #search-input {
     width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
-#fetch-button {
+#fetch-button, #btn {
     text-align: center;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: whitesmoke;
     width: 100%;
     border-radius: 5pt;
     padding:5px;
     margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -61,13 +77,14 @@ body{
 
   #current-condition {
     width: 100%;
-    padding-left: 5px
+    padding-left: 5px;
+    color:white;
   }
 
 .weather-card {
     width: 19%;
-    background-color: darkblue;
-    color: white;
+    background-color: darkgrey;
+    color: black;
     display: inline-block;
     margin: 3px;
 }
@@ -88,8 +105,8 @@ body{
     padding: 5px; 
     border-radius: 5pt;
     text-align: center;
-    width: 100%;
-    background-color: lightslategray;
+    width: 95%;
+    background-color:whitesmoke;
     margin-top: 8px;
   }
 
@@ -101,3 +118,5 @@ body{
 
 
 
+
+ 

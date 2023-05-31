@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>Weather Dashboard</title>
 </head>
 
 <body>
   <header>
-    <h1 id="header">Weather Dashboard</h1>
+    <h1 id="header">A Simple Weather Dashboard</h1>
   </header>
   <main class="container">
     <aside class="search-container">
@@ -20,9 +20,8 @@
         <input type="text" id="search-input" placeholder="Enter a city name......." />      
       <input type="submit"  id="fetch-button"/>
     </form>
-      <ul class="list-items" id="searchedCities">
-        
-      </ul>
+      <ul class="list-items" id="searchedCities"></ul>
+      <button id="btn">Clear recent searches</button>
     </aside>
     <section class="main-section" id="mainSection">
       <section class="sub-section1">
@@ -42,7 +41,7 @@
       </section>
     </section>
   </main>
-  <script src="js\script.js"></script>
+  <script src="assets\js\script.js"></script>
 </body>
 
 </html>
