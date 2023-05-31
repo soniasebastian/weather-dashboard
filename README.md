@@ -25,8 +25,8 @@ stack/apis/how-to-use-api-keys).
 <br>
 
 ## Links to the Project
-Check out the Github Repository [https://github.com/soniasebastian/weather-dashboard]
-Check out the deployed URL [ https://soniasebastian.github.io/weather-dashboard/]
+* Check out the Github Repository [https://github.com/soniasebastian/weather-dashboard]
+* Check out the deployed URL [ https://soniasebastian.github.io/weather-dashboard/]
 <br>
 
 ## User Story
